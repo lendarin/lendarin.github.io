@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(#9dd2f8, #5b9db9);
+  }
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+}
+
+
+table {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    width: 1200px;
+    text-align: center;
+    margin-left: 100px;
+}
+th,
+td {    
+  border: 2px solid teal;
+  padding: 8px 10px;
+}
+
+#table-head {
+    background-color: rgb(58, 142, 128);
+    
+}
+
+.row {
+    background-color: rgb(59, 174, 155);
+    font-family: monospace;
+}
+#description {
+    width: 500px;
+    
+}

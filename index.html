@@ -1,9 +1,79 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS text styling</title>
+    <link rel="stylesheet" href="CSS/index.css" type="text/css">
+</head>
 <body>
-  <h1>Lendarin</h1>
-  <p>I am learning to become a web developer!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <table>
+        <caption>
+            <h1>Basic CSS text styling properties</h1>
+        </caption>
+        <!-- Table header row -->
+        <thead>
+            <tr id="table-head">
+                <th scope="col">CSS property name </th>
+                <th id="description" scope="col"> Description </th>
+                <th scope="col">Example </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="row" scope="row">font-family</th>
+                <td>specifies a prioritized list of one or more font family names and/or generic family names for the selected element.</td>
+                <td>"font-family: Georgia, serif;", "font-family: "Gill Sans", "sans-serif;"</td>
+            <tr>
+                <th class="row" scope="row">font-size</th>
+                <td>sets the size of the font</td>
+                <td>"font-size: 12px;", "font-size: 80%;", "font-size: smaller;", "font-size: x-small;", "font-size: 1.2rem;"</td>
+            <tr>
+                <th class="row" scope="row">font-style</th>
+                <td>sets whether a font should be styled with a normal, italic, or oblique face from its font-family</td>
+                <td>"font-style: normal;", "font-style: italic;", "font-style: oblique 40deg;"</td>
+            <tr>
+                <th class="row" scope="row">font-weight</th>
+                <td>Sets the weight (or boldness) of the font. The weights available depend on the font-family that is currently set.</td>
+                <td>"font-weight: normal;", "font-weight: bold;", "font-weight: lighter;", "font-weight: 100;"</td>
+           <tr>
+                <th class="row" scope="row">color</th>
+                <td> Sets the foreground color value of an element's text and text decorations, and sets the currentcolor value. Currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color</td>
+                <td>"color: rebeccapurple;", "color: #00a400;", "color: rgb(214, 122, 127);", "color: hsla(237deg 74% 33% / 61%);"</td>
+            <tr>
+                <th class="row" scope="row">initial-letter</th>
+                <td>Sets the size and sink for dropped, raised, and sunken initial letters. This property applies to ::first-letter pseudo-elements and inline-level first children of block containers.
+                </td>
+                <td>"initial-letter: normal;", "initial-letter: 3; /* 3 lines tall, baseline at line 3 */", "initial-letter: 3 2; /* 3 lines tall, baseline at line 2 (raised 1 line) */", "initial-letter: inherit;"</td>
+            <tr>
+                <th class="row" scope="row">text-align </th>
+                <td>sets the horizontal alignment of the inline-level content inside a block element or table-cell box</td>
+                <td>"text-align: start;", "text-align: end;", "text-align: center;", "text-align: justify;"</td>
+            <tr>
+                <th class="row" scope="row">text-transform</th>
+                <td>specifies how to capitalize an element's text</td>
+                <td>"text-transform: capitalize;", "text-transform: uppercase;", "text-transform: lowercase;", "text-transform: none;", "text-transform: math-auto;"</td>
+            <tr>
+                <th class="row" scope="row">line-height</th>
+                <td>Sets the height of a line box in horizontal writing modes. In vertical writing modes, it sets the width of a line box. It's commonly used to set the distance between lines of text.</td>
+                <td>"line-height: normal;", "line-height: 2.5;", "line-height: 3em;", "line-height: 150%;", "line-height: 32px;"</td>
+            <tr>
+                <th class="row" scope="row">letter-spacing</th>
+                <td>sets the horizontal spacing behavior between text characters</td>
+                <td>"letter-spacing: normal;", "letter-spacing: .2rem;", "letter-spacing: 1px;", "letter-spacing: -1px;"</td>
+            <tr>
+                <th class="row" scope="row">word-spacing</th>
+                <td>sets the length of space between words and between tags</td>
+                <td>"word-spacing: normal;", "word-spacing: 1rem;", "word-spacing: 4px;", "word-spacing: -.4ch;"</td>
+            <tr>
+                <th class="row" scope="row">font</th>
+                <td>The font CSS shorthand property sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font.Many font properties can also be set through the shorthand property font. These are written in the following order: font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family.
+                    Among all those properties, only font-size and font-family are required when using the font shorthand property.
+                    A forward slash has to be put in between the font-size and line-height properties.</td>
+                <td>"font: 1.2rem "Fira Sans", sans-serif;", "font: italic 1.2rem "Fira Sans", serif;", "font: small-caps bold 24px/1 sans-serif;"</td>
+            </tbody>
 
+    </table>
+    
+</body>
 </html>
